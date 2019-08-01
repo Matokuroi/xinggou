@@ -3,12 +3,16 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xinggou-basic-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xinggou-basic-parent/xinggou-basic-generator" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xinggou-basic-parent/xinggou-basic-util" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xinggou-config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xinggou-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xinggou-plat-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xinggou-plat-parent/xinggou-plat-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xinggou-plat-parent/xinggou-plat-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xinggou-product-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xinggou-product-parent/xinggou-product-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xinggou-product-parent/xinggou-product-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xinggou-zuul" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

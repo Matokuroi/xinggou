@@ -2,9 +2,9 @@ package store.panpan.xinggou.util;
 
 public class AjaxResult {
 
-    private boolean success;
+    private boolean success = true;
 
-    private String message;
+    private String message = "操作成功";
 
     private Object resultObj;
 

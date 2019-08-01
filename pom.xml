@@ -14,6 +14,7 @@
         <module>xinggou-zuul</module>
         <module>xinggou-basic-parent</module>
         <module>xinggou-plat-parent</module>
+        <module>xinggou-product-parent</module>
     </modules>
 
     <properties>
@@ -42,4 +43,18 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
+                <configuration>
+                    <target>8</target>
+                    <source>8</source>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

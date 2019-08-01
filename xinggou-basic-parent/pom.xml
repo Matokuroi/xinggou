@@ -17,6 +17,7 @@
     <url>http://www.example.com</url>
     <modules>
         <module>xinggou-basic-util</module>
+        <module>xinggou-basic-generator</module>
     </modules>
 
     <properties>

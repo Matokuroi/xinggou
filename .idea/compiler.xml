@@ -6,24 +6,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="xinggou-basic-generator" />
         <module name="xinggou-basic-util" />
         <module name="xinggou-config-server" />
         <module name="xinggou-eureka" />
         <module name="xinggou-plat-interface" />
         <module name="xinggou-plat-service" />
+        <module name="xinggou-product-interface" />
+        <module name="xinggou-product-service" />
         <module name="xinggou-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="xinggou-basic-parent" target="1.7" />
-      <module name="xinggou-basic-util" target="1.7" />
-      <module name="xinggou-config-server" target="1.7" />
-      <module name="xinggou-eureka" target="1.8" />
-      <module name="xinggou-parent" target="1.8" />
-      <module name="xinggou-plat-interface" target="1.7" />
-      <module name="xinggou-plat-parent" target="1.7" />
-      <module name="xinggou-plat-service" target="1.7" />
-      <module name="xinggou-zuul" target="1.8" />
+      <module name="xinggou-basic-generator" target="8" />
+      <module name="xinggou-basic-parent" target="8" />
+      <module name="xinggou-basic-util" target="8" />
+      <module name="xinggou-config-server" target="8" />
+      <module name="xinggou-eureka" target="8" />
+      <module name="xinggou-parent" target="8" />
+      <module name="xinggou-plat-interface" target="8" />
+      <module name="xinggou-plat-parent" target="8" />
+      <module name="xinggou-plat-service" target="8" />
+      <module name="xinggou-product-interface" target="8" />
+      <module name="xinggou-product-parent" target="8" />
+      <module name="xinggou-product-service" target="8" />
+      <module name="xinggou-zuul" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

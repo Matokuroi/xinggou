@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/xinggou-basic-parent/xinggou-basic-generator/xinggou-basic-generator.iml" filepath="$PROJECT_DIR$/xinggou-basic-parent/xinggou-basic-generator/xinggou-basic-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/xinggou-basic-parent/xinggou-basic-parent.iml" filepath="$PROJECT_DIR$/xinggou-basic-parent/xinggou-basic-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/xinggou-basic-parent/xinggou-basic-util/xinggou-basic-util.iml" filepath="$PROJECT_DIR$/xinggou-basic-parent/xinggou-basic-util/xinggou-basic-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/xinggou-config-server/xinggou-config-server.iml" filepath="$PROJECT_DIR$/xinggou-config-server/xinggou-config-server.iml" />
@@ -10,6 +11,9 @@
       <module fileurl="file://$PROJECT_DIR$/xinggou-plat-parent/xinggou-plat-interface/xinggou-plat-interface.iml" filepath="$PROJECT_DIR$/xinggou-plat-parent/xinggou-plat-interface/xinggou-plat-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/xinggou-plat-parent/xinggou-plat-parent.iml" filepath="$PROJECT_DIR$/xinggou-plat-parent/xinggou-plat-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/xinggou-plat-parent/xinggou-plat-service/xinggou-plat-service.iml" filepath="$PROJECT_DIR$/xinggou-plat-parent/xinggou-plat-service/xinggou-plat-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xinggou-product-parent/xinggou-product-interface/xinggou-product-interface.iml" filepath="$PROJECT_DIR$/xinggou-product-parent/xinggou-product-interface/xinggou-product-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xinggou-product-parent/xinggou-product-parent.iml" filepath="$PROJECT_DIR$/xinggou-product-parent/xinggou-product-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xinggou-product-parent/xinggou-product-service/xinggou-product-service.iml" filepath="$PROJECT_DIR$/xinggou-product-parent/xinggou-product-service/xinggou-product-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/xinggou-zuul/xinggou-zuul.iml" filepath="$PROJECT_DIR$/xinggou-zuul/xinggou-zuul.iml" />
     </modules>
   </component>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="store.panpan.product.mapper.BrandMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="store.panpan.product.domain.Brand">
+        <id column="id" property="id" />
+        <result column="createTime" property="createTime" />
+        <result column="updateTime" property="updateTime" />
+        <result column="name" property="name" />
+        <result column="englishName" property="englishName" />
+        <result column="firstLetter" property="firstLetter" />
+        <result column="description" property="description" />
+        <result column="product_type_id" property="productTypeId" />
+        <result column="sortIndex" property="sortIndex" />
+        <result column="logo" property="logo" />
+    </resultMap>
+
+
+    <!-- 关联商品类型查询映射结果 -->
+    <resultMap id="BrandMap" type="store.panpan.product.domain.Brand">
+        <id column="id" property="id" />
+        <result column="createTime" property="createTime" />
+        <result column="updateTime" property="updateTime" />
+        <result column="name" property="name" />
+        <result column="englishName" property="englishName" />
+        <result column="firstLetter" property="firstLetter" />
+        <result column="description" property="description" />
+        <result column="product_type_id" property="productTypeId" />
+        <result column="sortIndex" property="sortIndex" />
+        <result column="logo" property="logo" />
+        <!-- 简写 多对一 关系 商品类型-->
+        <result column="tid" property="productType.id"/>
+        <result column="tname" property="productType.name"/>
+
+    </resultMap>
+
+    <sql id="columns">
+        b.id,
+        b.createTime,
+        b.updateTime,
+        b.name,
+        b.englishName,
+        b.firstLetter,
+        b.description,
+        b.product_type_id,
+        b.sortIndex,
+        b.logo
+    </sql>
+
+    <sql id="whereLike">
+        <where>
+            <if test="query.keyword!=null and query.keyword!=''">
+                and
+                (
+                b.name like concat('%',#{query.keyword},'%')
+                or
+                b.englishName like concat('%',#{query.keyword},'%')
+                or
+                pt.name like concat('%',#{query.keyword},'%')
+                )
+            </if>
+        </where>
+    </sql>
+
+    <select id="selectPageList" resultMap="BrandMap">
+      select
+        <include refid="columns"/>,pt.id as tid,pt.name as tname
+        FROM t_brand b LEFT JOIN t_product_type pt ON b.product_type_id = pt.id
+        <include refid="whereLike"/>
+    </select>
+
+    <delete id="deleteMany" parameterType="java.util.List">
+        DELETE FROM t_brand
+        WHERE id IN 
+        <foreach collection="list"  item="id" open="(" separator="," close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+
+</mapper>

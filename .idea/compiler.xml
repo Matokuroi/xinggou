@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="xinggou-basic-generator" />
         <module name="xinggou-basic-util" />
+        <module name="xinggou-common-interface" />
+        <module name="xinggou-common-service" />
         <module name="xinggou-config-server" />
         <module name="xinggou-eureka" />
         <module name="xinggou-plat-interface" />
@@ -21,6 +23,9 @@
       <module name="xinggou-basic-generator" target="8" />
       <module name="xinggou-basic-parent" target="8" />
       <module name="xinggou-basic-util" target="8" />
+      <module name="xinggou-common-interface" target="8" />
+      <module name="xinggou-common-parent" target="8" />
+      <module name="xinggou-common-service" target="8" />
       <module name="xinggou-config-server" target="8" />
       <module name="xinggou-eureka" target="8" />
       <module name="xinggou-parent" target="8" />

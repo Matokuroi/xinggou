@@ -5,6 +5,9 @@
     <file url="file://$PROJECT_DIR$/xinggou-basic-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xinggou-basic-parent/xinggou-basic-generator" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xinggou-basic-parent/xinggou-basic-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xinggou-common-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xinggou-common-parent/xinggou-common-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/xinggou-common-parent/xinggou-common-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xinggou-config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xinggou-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xinggou-plat-parent" charset="UTF-8" />

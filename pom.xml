@@ -15,6 +15,7 @@
         <module>xinggou-basic-parent</module>
         <module>xinggou-plat-parent</module>
         <module>xinggou-product-parent</module>
+        <module>xinggou-common-parent</module>
     </modules>
 
     <properties>
